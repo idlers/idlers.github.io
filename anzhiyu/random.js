@@ -1,0 +1,1 @@
+var posts=["2023/06/09/hello-world/","2023/06/09/每天都想闲的不闲/","2023/06/09/ppt模板网站/","2023/06/09/简历模板网站/","2023/06/09/免费图床网站/","2023/06/09/Midjourney常用关键词/","2023/06/09/Icon网站/","2023/06/09/2023年值得收藏的6个免费插画图库网站/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
