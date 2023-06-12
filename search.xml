@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>前端自动化构建工具</title>
+      <link href="/2023/06/12/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
+      <url>/2023/06/12/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前端自动化构建工具"><a href="#前端自动化构建工具" class="headerlink" title="前端自动化构建工具"></a>前端自动化构建工具</h1><p>前端自动化构建工具可以帮助开发者将多个文件自动化地进行合并、压缩、优化等处理，从而提高前端开发的效率和代码质量。以下是一些常用的前端自动化构建工具。</p><h2 id="Grunt"><a href="#Grunt" class="headerlink" title="Grunt"></a>Grunt</h2><p>Grunt 是一个基于任务（task）的 JavaScript 构建工具，它可以自动化执行常见的开发任务，如代码压缩、编译 Less&#x2F;Sass、合并文件等。Grunt 的配置文件是 <code>Gruntfile.js</code>，使用 <code>grunt</code> 命令可以执行 Grunt 任务。</p><h2 id="Gulp"><a href="#Gulp" class="headerlink" title="Gulp"></a>Gulp</h2><p>Gulp 是一个基于流（stream）的构建工具，它可以将文件作为流进行处理，从而提高构建效率。Gulp 的配置文件是 <code>gulpfile.js</code>，使用 <code>gulp</code> 命令可以执行 Gulp 任务。</p><h2 id="Webpack"><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h2><p>Webpack 是一个模块化的打包工具，它可以将多个模块打包成一个文件，并且支持代码分割、懒加载、热更新等高级特性。Webpack 的配置文件是 <code>webpack.config.js</code>，使用 <code>webpack</code> 命令可以执行 Webpack 打包。</p><h2 id="Rollup"><a href="#Rollup" class="headerlink" title="Rollup"></a>Rollup</h2><p>Rollup 是一个专注于 JavaScript 库打包的构建工具，它可以将多个模块打包成一个小巧的库，并且支持 Tree Shaking 等优化功能。Rollup 的配置文件是 <code>rollup.config.js</code>，使用 <code>rollup</code> 命令可以执行 Rollup 打包。</p><h2 id="Parcel"><a href="#Parcel" class="headerlink" title="Parcel"></a>Parcel</h2><p>Parcel 是一个零配置的构建工具，它可以自动识别入口文件和依赖，从而快速地进行打包。Parcel 支持多种文件类型，如 JavaScript、CSS、HTML、图片等。使用 Parcel 只需要一个入口文件和一个 HTML 文件即可。使用 <code>parcel</code> 命令可以执行 Parcel 打包。</p><h2 id="Vite"><a href="#Vite" class="headerlink" title="Vite"></a>Vite</h2><p>Vite 是一个基于 ES modules 的开发服务器和构建工具，它可以快速启动开发服务器，并且支持快速的热更新和按需编译。Vite 的配置文件是 <code>vite.config.js</code>，使用 <code>vite</code> 命令可以启动 Vite 服务器。Vite 在开发过程中可以快速编译 ES modules，而在打包时则可以使用 Rollup 进行打包。</p><p>以上是常见的前端自动化构建工具，开发者可以根据实际需求选择合适的工具。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>互联网热点内容</title>
+      <link href="/2023/06/12/%E4%BA%92%E8%81%94%E7%BD%91%E7%83%AD%E7%82%B9%E5%86%85%E5%AE%B9/"/>
+      <url>/2023/06/12/%E4%BA%92%E8%81%94%E7%BD%91%E7%83%AD%E7%82%B9%E5%86%85%E5%AE%B9/</url>
+      
+        <content type="html"><![CDATA[<h2 id="互联网热点内容"><a href="#互联网热点内容" class="headerlink" title="互联网热点内容"></a>互联网热点内容</h2><p>当下互联网的热点内容有很多，以下是一些可以用来发布博客文章以吸引粉丝流量的热点话题：</p><ol><li>人工智能（AI）和机器学习：探讨人工智能和机器学习在各个领域的应用，如自动驾驶、语音助手、智能推荐等，以及对社会和未来的影响。</li><li>区块链和加密货币：介绍区块链技术的原理和应用，讨论比特币、以太坊等加密货币的发展和趋势，以及区块链对金融、供应链等领域的潜在影响。</li><li>云计算和大数据：解释云计算的概念和优势，探讨大数据的处理和分析方法，以及云计算和大数据对企业和个人的价值。</li><li>5G和物联网：介绍5G技术的特点和应用场景，讨论物联网在智能家居、智慧城市等领域的发展和前景，以及对日常生活的影响。</li><li>虚拟现实（VR）和增强现实（AR）：探索虚拟现实和增强现实技术的应用，如游戏、教育、医疗等领域，以及对用户体验和交互方式的改变。</li><li>社交媒体和社交网络：分析社交媒体平台的发展趋势，讨论用户行为和社交网络的影响力，以及社交媒体对个人和企业的营销策略的影响。</li><li>数字化转型：介绍企业和组织进行数字化转型的意义和方法，探讨数字化转型对商业模式和运营方式的改变。</li><li>数据隐私和安全：讨论个人数据隐私保护的重要性，探究数据泄露和网络安全问题，并介绍数据隐私保护和安全措施的最佳实践。</li><li>可持续发展和环境保护：探讨可持续发展的概念和实践，讨论环境保护的重要性和可行性，以及企业和个人在可持续发展方面的责任和行动。</li><li>新兴科技趋势：介绍其他新兴的科技趋势，如边缘计算、生物识别技术、量子计算等，探讨其应用和发展前景。</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ECMA详细介绍</title>
+      <link href="/2023/06/12/ECMA%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2023/06/12/ECMA%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h3 id="ECMA-介绍"><a href="#ECMA-介绍" class="headerlink" title="ECMA 介绍"></a>ECMA 介绍</h3><p>(European Computer Manufacturers Association) 是一个国际标准组织，成立于1961年。ECMA是制定计算机和通信标准的机构之一，其最著名的工作之一就是制定了JavaScript的标准。</p><h3 id="ECMA制定标准的目的"><a href="#ECMA制定标准的目的" class="headerlink" title="ECMA制定标准的目的"></a>ECMA制定标准的目的</h3><p>ECMA制定标准的主要目的是确保不同设备和系统之间的兼容性，并促进技术的发展。ECMA的标准涵盖了多个领域，例如计算机硬件、通信、电子商务、数据存储等等。</p><p>对于ECMA标准的制定，其实质是一个组织成员间的协商和投票过程。这些成员代表了许多不同的利益方，包括计算机制造商、软件开发者、标准化组织、政府机构等等。这些成员通过讨论和协商，最终制定出符合大多数人利益的标准。</p><h3 id="ECMA标准的编写过程通常包括以下几个步骤："><a href="#ECMA标准的编写过程通常包括以下几个步骤：" class="headerlink" title="ECMA标准的编写过程通常包括以下几个步骤："></a>ECMA标准的编写过程通常包括以下几个步骤：</h3><ol><li>建立委员会。ECMA的委员会由会员组成，他们通常是各行业的专业人士和专家，共同讨论制定标准的内容和过程。</li><li>制定草案。委员会将讨论结果整理成一个草案，并通过投票表决确定是否进入下一步。</li><li>公开讨论。ECMA会将草案公开，征求其他利益方的意见和建议，以便更好地完善标准。</li><li>正式发布。当草案经过多次修改和完善后，委员会将正式发布最终版本的标准。</li></ol><h3 id="ECMA总结"><a href="#ECMA总结" class="headerlink" title="ECMA总结"></a>ECMA总结</h3><p>ECMA标准的制定过程是一个开放、透明的过程，旨在确保技术的稳定性和互操作性，从而促进技术的发展。对于开发人员和企业来说，了解并遵循ECMA标准是非常重要的，可以保证产品的兼容性和稳定性，提高市场竞争力。</p><h3 id="补充内容"><a href="#补充内容" class="headerlink" title="补充内容"></a>补充内容</h3><p>ECMA最早成立于1961年，当时的名字是欧洲计算机制造商协会（European Computer Manufacturers Association），成员主要是欧洲计算机制造商。1994年更名为欧洲计算机制造商协会（European Computer Manufacturers Association），并将其覆盖范围扩大到全球。</p><p>除了JavaScript标准，ECMA还制定了许多其他的计算机和通信标准，例如ECMA-262（JavaScript核心规范）、ECMA-404（JSON规范）、ECMA-376（Office开放XML格式）等等。</p><p>ECMA标准的编写过程通常需要耗费数年的时间，需要经历多轮讨论和修订，确保标准的合理性和可行性。制定标准的过程中需要充分考虑各方的利益和需求，因此需要建立合理的机制来协调各方的观点。</p><p>ECMA还致力于推动新技术的发展和应用，鼓励创新和开放，为计算机行业的发展做出了重要贡献。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>油猴脚本的安装及使用教程</title>
+      <link href="/2023/06/12/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+      <url>/2023/06/12/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="油猴脚本的安装及使用教程"><a href="#油猴脚本的安装及使用教程" class="headerlink" title="油猴脚本的安装及使用教程"></a>油猴脚本的安装及使用教程</h1><p>Tampermonkey，中文名油猴脚本管理器，号称全商店最强的浏览器插件绝非浪得虚名。</p><p>一个油猴脚本管理器可以代替数十个浏览器插件，有”浏览器黑科技”之称。</p><p>接下来，我们将为您详细介绍油猴是什么、与插件的区别以及如何安装和使用。</p><h3 id="一、功能介绍"><a href="#一、功能介绍" class="headerlink" title="一、功能介绍"></a><strong>一、功能介绍</strong></h3><p>Tampermonkey脚本管理器，中国网友更喜欢称之为”油猴”。</p><p>油猴提供了便捷脚本安装、自动更新检查、标签中的脚本运行状况速览、内置的编辑器等多种功能。</p><p>同时，Tampermonkey还可以正常运行原本不兼容的脚本。</p><h3 id="二、什么是脚本"><a href="#二、什么是脚本" class="headerlink" title="二、什么是脚本"></a><strong>二、什么是脚本</strong></h3><p>油猴插件实际上是一个用户脚本管理器。</p><p>脚本可以理解为简化版的Chrome插件，通过脚本可以实现浏览器的多种实用或有趣功能，比如下载视频、图片、解析网盘资源、屏蔽广告等。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rsDCo8Wk5nu1P948h48n2ooDxIKgn3fECoXyJZjASdDtVV1YXV8Yk6g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>还有各种大家望眼欲穿但在Chrome商店无法上架的好东西。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G5gtHRYomTmdtfbqN3iaQyD6L0te3eO69yRG6v08NiacjtxOFI60PuCtQf9WhDNn3tW7USN0BadQ7g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h3 id="三、脚本与插件的区别"><a href="#三、脚本与插件的区别" class="headerlink" title="三、脚本与插件的区别"></a><strong>三、脚本与插件的区别</strong></h3><p>Chrome插件功能强大，但相对而言会占用更多的浏览器资源，导致访问速度变慢。</p><p>而特定功能的脚本只在特定的网站上生效，当您访问其他网站时，这些脚本会处于关闭状态。</p><p>这样就能够节约系统资源，不再担心谷歌浏览器占用过多内存和CPU的问题。</p><h3 id="四、安装油猴"><a href="#四、安装油猴" class="headerlink" title="四、安装油猴"></a><strong>四、安装油猴</strong></h3><p>您可以在扩展迷上下载油猴的离线文件，将解压后得到的crx文件拖拽到浏览器的扩展管理页面（打开开发者模式）即可完成安装。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rAmLDhKQY9CDJCDKIwQAjibEiaFS5KKchfagmmEr683ODZWibBLQ2z1iaOw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>安装完成后，您的浏览器地址栏上会增加一个油猴的图标，点击它可以对已安装的脚本进行管理。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rDHln3bhQytJ1gZrBIVadw5tGVkQychmAx0ElPmS88DJ9KuBXKxYaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h3 id="五、安装脚本"><a href="#五、安装脚本" class="headerlink" title="五、安装脚本"></a><strong>五、安装脚本</strong></h3><p>成功安装插件后，您需要继续安装脚本。油猴脚本是由用户编写并向全世界发布的，可以免费安装。</p><p>最常用的脚本资源网站是Greasy Fork。该网站也支持简体中文，无需担心语言不通的问题。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3riahnmI37WUJmgsicfFPF0C3Dazpt98oYFv6oTpWKv5e1ARWcQtUreKibQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>选择您需要的脚本，点击安装按钮。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3riaE9qUwgibN1toxa6lFRFd1OF8B7oEv0UZTNicw07ssAGsSicSb8bgnDRg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>然后会弹出油猴的提示框，继续点击安装按钮。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rAMvjMYLOq5jIejymBiauRXRvXHoqOcopCm0Tw2DJbmTIUnDANzJnq6w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>进入油猴的管理面板，我们可以看到，新的脚本已经安装成功了。</p><p>接下来，你就可以随便看VIP视频、下载全网音乐了！</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3repKTGx9bhzMeFABSicRImxONgIibSt4gBR6h8uu8AL5yxgCFoNjrPiarA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>但是，Greasy Fork的国内访问情况很不稳定，十有八九次都是崩的。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rVkkk5T92Or0ibb4nzJ161whq0V5vAY17M1qLl6e5P7GeB0eNc3ja3BA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片">所以，你可以参考扩展迷近期上线的【油猴脚本】专区按照操作方式进行安装，我们也会定期为大家推荐适合国内用户的实用脚本。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G5gtHRYomTmdtfbqN3iaQyDbKoVHDkQUT6tvuwb0jBjjWtKFqPRlwwHdib6YrloNq2SE301ChTfsCQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><h3 id="六、脚本管理"><a href="#六、脚本管理" class="headerlink" title="六、脚本管理"></a><strong>六、脚本管理</strong></h3><p>脚本，是让你的浏览器变成黑科技的工具。</p><p>而油猴，就是管理这些脚本的工具。</p><p>打开油猴插件的脚本管理面板，你还能清晰地看到各个脚本的功能特性、支持的站点、最后更新时间，还能快速对它进行删除、编辑等操作。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rvn2wL7EBTCIqWPo3fNSqD1L7gD9ibeYKaMwlLmosLd5mTo80k0H41rw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片">以后，当你再打开一些网站时，再点击油猴的插件图标，就能看到正在该网站上运行的脚本有哪些了。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G5gtHRYomTmdtfbqN3iaQyDxjLxLHXv1ZFVvMufDCue9GHlaNlzewaYnALUAbiat7ibO3oZARuI9iaxQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>比如打开豆瓣网站，油猴显示正在运行的脚本有：豆瓣资源下载大师——可以直接下载豆瓣上的电影、图书等等。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/D1XlU0QfU3G6YwBIzlNUQFO4Xcy1IH3rv55iaPCHlQwQvPDB5OopKOXibaOpwk1qibl6ib0fbc53hF0w6gDN4nCVXw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>当然了，Greasy Fork上还有更多惊喜脚本等着你。</p><p><strong>插件地址</strong></p><p><a href="https://www.extfans.com/productivity/dhdgffkkebhmkfjojejmpbldmpobfkfo/">https://www.extfans.com/productivity/dhdgffkkebhmkfjojejmpbldmpobfkfo/</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2023年值得收藏的6个免费插画图库网站</title>
+      <link href="/2023/06/10/2023%E5%B9%B4%E5%80%BC%E5%BE%97%E6%94%B6%E8%97%8F%E7%9A%846%E4%B8%AA%E5%85%8D%E8%B4%B9%E6%8F%92%E7%94%BB%E5%9B%BE%E5%BA%93%E7%BD%91%E7%AB%99/"/>
+      <url>/2023/06/10/2023%E5%B9%B4%E5%80%BC%E5%BE%97%E6%94%B6%E8%97%8F%E7%9A%846%E4%B8%AA%E5%85%8D%E8%B4%B9%E6%8F%92%E7%94%BB%E5%9B%BE%E5%BA%93%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2023年值得收藏的6个免费插画图库网站"><a href="#2023年值得收藏的6个免费插画图库网站" class="headerlink" title="2023年值得收藏的6个免费插画图库网站"></a>2023年值得收藏的6个免费插画图库网站</h1><p>图库是刚需。尤其是在进行 APP 、网页乃至于日常运营当中，都需要高素质且灵活的插画与图片来作为填充。对于这类图片和插画素材，通常需要它们足够灵活，能够成套使用，甚至可以方便地自定义，以匹配不同的需求。今天推荐一波最新的插画图库，它们几乎是完全免费的，在授权方面，部分是需要声明出处的，但是即便如此也相当值得收藏和上手使用了！</p><h3 id="Flexiple"><a href="#Flexiple" class="headerlink" title="Flexiple "></a><a href="https://flexiple.com/illustrations/">Flexiple </a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqFQP.png" alt="image.png"><br>出自 Flexiple 之手的 Scale 是一个全新的矢量插画图库，它提供完全免费且可商用的矢量插画，每天更新，并且无需注明出处。</p><h3 id="crafttor"><a href="#crafttor" class="headerlink" title="crafttor"></a><a href="https://crafttor.com/">crafttor</a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqAL8.png" alt="image.png"><br>Crafttor 是一个在 Figma 当中使用的插画图库工具，它提供各种精美插画，每个月会有30张免费的 png 和 10 张 Svg 格式的插画的配额，可以直接混合搭配使用，并且每个月还会有新增的插画。</p><h3 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a><a href="https://www.artify.co/vector-illustrations">Vector</a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqVeS.png" alt="image.png"><br>ArVector Illustrations 是一款包含70多种不同风格和5000多种矢量图像的插画图库，这个图库当中，绝大多数的图片素材可以下载低清晰度的 PNG 格式文件，并且免费用于个人项目当中，想要商用可以购买他们的进阶服务。</p><h3 id="Skribbl"><a href="#Skribbl" class="headerlink" title="Skribbl"></a><a href="https://weareskribbl.com/">Skribbl</a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqPzt.png" alt="image.png"><br>这是一个由一群创意工作者所发起的插画图库项目，图库中的所有图片均是免费可商用的，可以用于任何项目，无需注明出处。</p><h3 id="illustrationkit"><a href="#illustrationkit" class="headerlink" title="illustrationkit"></a><a href="https://illustrationkit.com/">illustrationkit</a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqCRI.png" alt="image.png"></p><h3 id="wepik"><a href="#wepik" class="headerlink" title="wepik"></a><a href="https://storyset.com/">wepik</a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqksf.png" alt="image.png"><br>这是一套精美的进阶型免费开源插画图库，其中包含超过110款不同的场景，超过55个不同的角色，并且可以通过角色编辑器进行自定义，这套插画图库还可以进行自定义。</p><h3 id="小洋丁插画"><a href="#小洋丁插画" class="headerlink" title="小洋丁插画"></a><a href="https://xiaonail.com/dist/#/">小洋丁插画</a></h3><p><img src="https://s1.ax1x.com/2023/06/10/pCEqZdg.png" alt="image.png"><br>不同风格的插画组件库讲不同的故事，拿来即用，与近百位插画师共创的多套精美插画组件库，像拼积木一样创造插画。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Midjourney常用关键词</title>
+      <link href="/2023/06/09/Midjourney%E5%B8%B8%E7%94%A8%E5%85%B3%E9%94%AE%E8%AF%8D/"/>
+      <url>/2023/06/09/Midjourney%E5%B8%B8%E7%94%A8%E5%85%B3%E9%94%AE%E8%AF%8D/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2023/06/10/pCEbZCR.jpg" alt="Midjourney常用关键词.jpg"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Icon网站</title>
+      <link href="/2023/06/09/Icon%E7%BD%91%E7%AB%99/"/>
+      <url>/2023/06/09/Icon%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="ICON图标网站"><a href="#ICON图标网站" class="headerlink" title="ICON图标网站"></a>ICON图标网站</h1><p>以下是一些常见的提供免费ICON图标的网站：</p><ol><li><a href="https://www.iconfont.cn/">Iconfont</a> - 阿里妈妈MUX倾力打造的矢量图标管理、交流平台。</li><li><a href="https://www.iconpark.cn/">Iconpark</a> - 丰富多彩的图标资源库免费使用。</li><li><a href="https://streamlineicons.com/">Streamline</a> - 访问世界上最大、最一致的图标和插图集。</li><li><a href="https://remixicon.com/">Remix Icon</a> - 为设计师和开发者精心打造的开源中性风格系统符号。</li><li><a href="https://www.flaticon.com/">Flaticon</a> - 这是一个收集了大量免费矢量ICO图标的网站。您可以搜索并下载符合您需求的图标。</li><li><a href="https://www.iconfinder.com/">Iconfinder</a> - 这个网站提供了许多高质量的ICO图标，可以搜索并下载。</li><li><a href="https://icons8.com/">Icons8</a> - 这是另一个提供大量免费ICO图标的网站。您可以选择不同的风格和尺寸来定制您的图标。</li><li><a href="https://www.freepik.com/">Freepik</a> - 这个网站提供了许多免费ICO图标以及其他类型的免费设计资源，可以帮助您制作一个漂亮的图标。</li><li><a href="https://iconarchive.com/">IconArchive</a> - 这是一个收集了许多ICO图标的网站，您可以搜索并下载自己所需的图标。</li></ol><p>请根据需要选择合适的网站进行图标获取。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hllo-World</title>
+      <link href="/2023/06/09/hello-world/"/>
+      <url>/2023/06/09/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PPT模板网站</title>
+      <link href="/2023/06/09/ppt%E6%A8%A1%E6%9D%BF%E7%BD%91%E7%AB%99/"/>
+      <url>/2023/06/09/ppt%E6%A8%A1%E6%9D%BF%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="免费-PPT-模板网站"><a href="#免费-PPT-模板网站" class="headerlink" title="免费 PPT 模板网站"></a>免费 PPT 模板网站</h1><p>以下是一些免费的PPT模板网站：</p><ol><li><a href="https://slidesgo.com/">Slidesgo</a></li><li><a href="https://www.canva.com/templates/presentations/">Canva</a></li><li><a href="https://powerpointify.com/category/free-templates/">PowerPointify</a></li><li><a href="https://www.slidescarnival.com/category/free-templates">Google Slides Themes</a></li><li><a href="https://slidemodel.com/free-powerpoint-templates/">SlideModel</a></li><li><a href="https://www.free-power-point-templates.com/">FPPT</a></li><li><a href="https://www.presentationgo.com/">PresentationGo</a></li><li><a href="https://www.ppttemplate.net/">PPT Template</a></li><li><a href="https://www.presentationmagazine.com/free-powerpoint-templates">Presentation Magazine</a></li></ol><p>这些网站提供各种不同类型的PPT模板，您可以根据需要选择。建议在使用前查看每个网站的使用条款和条件，以确保您可以合法地使用模板。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>简历模板网站</title>
+      <link href="/2023/06/09/%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF%E7%BD%91%E7%AB%99/"/>
+      <url>/2023/06/09/%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="简历模板网站"><a href="#简历模板网站" class="headerlink" title="简历模板网站"></a>简历模板网站</h1><p>以下是一些提供简历模板的网站：</p><ul><li><a href="https://www.canva.cn/">Canva</a>: Canva 是一个在线平面设计工具，拥有大量的简历模板供用户选择。可以免费使用，但部分高级功能需要付费。</li><li><a href="https://www.jianlibang.com/">简历帮</a>: 简历帮是一个专注于提供简历制作和求职指导的平台。其提供多种免费简历模板，用户可以根据自己的需求进行选择。</li><li><a href="https://www.myresumeformat.com/">MyResumeFormat</a>: MyResumeFormat 是一个提供多种类型简历模板的网站，用户可以免费下载并自行编辑。</li><li><a href="https://zety.com/">Zety</a>: Zety 是一个在线简历制作工具，提供免费简历模板，用户可以自行编辑和下载。</li><li><a href="https://www.hloom.com/">Hloom</a>: Hloom 提供大量的简历模板，可以免费下载和编辑。用户可以根据自己的职业方向选择不同类型的简历模板。</li><li><a href="https://www.wondercv.com/">wondercv</a>: WonderCV 是一个在线简历制作平台，提供多种现代和个性化的简历模板，用户可以根据自己的需求进行编辑和导出。</li></ul><p>求职招聘网站也提供丰富的简历模板资源，您可以参考以下网站：</p><ul><li><a href="https://www.51job.com/">51job</a>: 51job 是国内知名的求职招聘网站，提供多种类型的简历模板供求职者选择和使用。</li><li><a href="https://www.zhaopin.com/">智联招聘</a>: 智联招聘是中国领先的人力资源服务供应商，其网站上提供了丰富的简历模板资源，覆盖不同行业和职位的需求。</li><li><a href="https://www.liepin.com/">猎聘网</a>: 猎聘网是中国专业的人才招聘网站，提供多种精美的简历模板可供选择。</li><li><a href="https://www.zhipin.com/">BOSS直聘</a>: BOSS直聘是一家专注于高端职位的互联网招聘平台，其网站上提供了多种专业、时尚的简历模板。</li><li><a href="https://www.jianli-tianxia.com/">简历天下</a>: 简历天下是一个专注于简历制作的网站，提供了大量免费的简历模板和在线制作工具，帮助求职者快速创建优秀的简历。</li><li><a href="https://resume.io/">Resume.io</a>: <a href="http://resume.io/">Resume.io</a> 是一个专业的简历制作平台，提供了多种现代和个性化的简历模板，支持在线编辑和下载。</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>免费图床网站</title>
+      <link href="/2023/06/09/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/"/>
+      <url>/2023/06/09/%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="免费图床网站"><a href="#免费图床网站" class="headerlink" title="免费图床网站"></a>免费图床网站</h1><p>以下是一些免费的图床网站：</p><ul><li><a href="https://imgur.com/">Imgur</a>：Imgur是一个免费的在线图片托管网站，允许您上传、共享和嵌入图像。</li><li><a href="https://www.flickr.com/">Flickr</a>：Flickr是一个免费的照片托管和共享网站，允许用户上传和组织自己的照片。</li><li><a href="https://postimages.org/">Postimage</a>：Postimage是一个免费的图像和视频托管网站，允许您上传和共享图像和视频。</li><li><a href="https://imgbb.com/">ImgBB</a>：ImgBB是一个免费的图像托管网站，允许用户上传和共享图像，并提供嵌入代码。</li><li><a href="https://github.com/">GitHub</a>：GitHub是一个代码托管平台，也可以作为图床使用。将图片上传到GitHub仓库中，然后获取图片的Raw链接即可使用。这种方法适合小规模的个人项目。</li><li><a href="https://www.google.com/intl/zh-CN/photos/about/">谷歌相册</a>：谷歌相册是一个云端图片存储和分享平台，每个谷歌账号都有免费的存储空间。用户可以将图片上传到谷歌相册中，并获取图片的共享链接。</li><li><a href="https://cloud.tencent.com/product/cos">腾讯云COS</a>：腾讯云对象存储（Cloud Object Storage，COS）提供了图片存储和管理的功能，您可以通过腾讯云的控制台或API进行上传和管理图片。</li><li><a href="https://pan.baidu.com/">百度网盘</a>：百度网盘是一个综合性的云存储服务，您可以将图片上传到网盘中，并生成相应的链接来分享和使用。</li><li><a href="http://photo.weibo.com/">新浪图床</a>：新浪图床是新浪微博提供的图片托管服务，您可以将图片上传到新浪图床，并获得对应的图片链接。</li><li><a href="https://www.lanzou.com/">蓝奏云</a>：蓝奏云是一个免费的文件存储和分享平台，您可以将图片上传到蓝奏云，并获取图片的外链地址。</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>每天都想闲的不闲</title>
+      <link href="/2023/06/09/%E6%AF%8F%E5%A4%A9%E9%83%BD%E6%83%B3%E9%97%B2%E7%9A%84%E4%B8%8D%E9%97%B2/"/>
+      <url>/2023/06/09/%E6%AF%8F%E5%A4%A9%E9%83%BD%E6%83%B3%E9%97%B2%E7%9A%84%E4%B8%8D%E9%97%B2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="每天都想闲的不闲"><a href="#每天都想闲的不闲" class="headerlink" title="每天都想闲的不闲"></a>每天都想闲的不闲</h1><p>👨‍🎓 教育 | 保定 · 河软 专科</p><p>💻 工作 | 大学在读</p><p>🎃 爱好 |  游戏，影音，二次元，数码科技，写作，吃喝玩乐</p><p>🏷️ 标签 | 男 00后有责任心，时间观念强，努力攀登，交际🐂</p><p>开发中……</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
