@@ -6,16 +6,17 @@
 "use strict";
 
 hexo.extend.helper.register("inject_head_js", function () {
-  const { darkmode, aside } = this.theme;
+    const {darkmode, aside} = this.theme;
+    const am = darkmode.am ? darkmode.am : 6
+    const pm = darkmode.pm ? darkmode.pm + 12 : 18
+    // const start = darkmode.start ? darkmode.start : 6;
+    // const end = darkmode.end ? darkmode.end : 18;
 
-  const start = darkmode.start ? darkmode.start : 6;
-  const end = darkmode.end ? darkmode.end : 18;
+    const {theme_color} = hexo.theme.config;
+    const themeColorLight = (theme_color && theme_color.enable && theme_color.meta_theme_color_light) || "#ffffff";
+    const themeColorDark = (theme_color && theme_color.enable && theme_color.meta_theme_color_dark) || "#0d0d0d";
 
-  const { theme_color } = hexo.theme.config;
-  const themeColorLight = (theme_color && theme_color.enable && theme_color.meta_theme_color_light) || "#ffffff";
-  const themeColorDark = (theme_color && theme_color.enable && theme_color.meta_theme_color_dark) || "#0d0d0d";
-
-  const localStore = `
+    const localStore = `
     win.saveToLocal = {
       set: function setWithExpiry(key, value, ttl) {
         if (ttl === 0) return
@@ -46,8 +47,8 @@ hexo.extend.helper.register("inject_head_js", function () {
     }
   `;
 
-  // https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
-  const getScript = `
+    // https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+    const getScript = `
     win.getScript = url => new Promise((resolve, reject) => {
       const script = document.createElement('script')
       script.src = url
@@ -63,7 +64,7 @@ hexo.extend.helper.register("inject_head_js", function () {
     })
   `;
 
-  const getCSS = `
+    const getCSS = `
     win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
       const link = document.createElement('link')
       link.rel = 'stylesheet'
@@ -80,9 +81,9 @@ hexo.extend.helper.register("inject_head_js", function () {
     })
   `;
 
-  let darkmodeJs = "";
-  if (darkmode.enable) {
-    darkmodeJs = `
+    let darkmodeJs = "";
+    if (darkmode.enable) {
+        darkmodeJs = `
       win.activateDarkMode = function () {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
@@ -98,10 +99,10 @@ hexo.extend.helper.register("inject_head_js", function () {
       const t = saveToLocal.get('theme')
     `;
 
-    const autoChangeMode = darkmode.autoChangeMode;
+        const autoChangeMode = darkmode.autoChangeMode;
 
-    if (autoChangeMode === 1) {
-      darkmodeJs += `
+        if (autoChangeMode === 1) {
+            darkmodeJs += `
           const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
           const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
           const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
@@ -113,7 +114,7 @@ hexo.extend.helper.register("inject_head_js", function () {
             else if (isNotSpecified || hasNoSupport) {
               const now = new Date()
               const hour = now.getHours()
-              const isNight = hour <= ${start} || hour >= ${end}
+              const isNight = hour <= ${am} || hour >= ${pm}
               isNight ? activateDarkMode() : activateLightMode()
             }
             window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
@@ -124,8 +125,8 @@ hexo.extend.helper.register("inject_head_js", function () {
           } else if (t === 'light') activateLightMode()
           else activateDarkMode()
         `;
-    } else if (autoChangeMode === 2) {
-      darkmodeJs += `
+        } else if (autoChangeMode === 2) {
+            darkmodeJs += `
           const now = new Date()
           const hour = now.getHours()
           const isNight = hour <= ${start} || hour >= ${end}
@@ -133,17 +134,17 @@ hexo.extend.helper.register("inject_head_js", function () {
           else if (t === 'light') activateLightMode()
           else activateDarkMode()
         `;
-    } else {
-      darkmodeJs += `
+        } else {
+            darkmodeJs += `
           if (t === 'dark') activateDarkMode()
           else if (t === 'light') activateLightMode()
         `;
+        }
     }
-  }
 
-  let asideStatus = "";
-  if (aside.enable && aside.button) {
-    asideStatus = `
+    let asideStatus = "";
+    if (aside.enable && aside.button) {
+        asideStatus = `
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -153,9 +154,9 @@ hexo.extend.helper.register("inject_head_js", function () {
         }
       }
     `;
-  }
+    }
 
-  const detectApple = `
+    const detectApple = `
     const detectApple = () => {
       if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
         document.documentElement.classList.add('apple')
@@ -164,7 +165,7 @@ hexo.extend.helper.register("inject_head_js", function () {
     detectApple()
     `;
 
-  return `<script>(win=>{${
-    localStore + getScript + getCSS + darkmodeJs + asideStatus + detectApple
-  }})(window)</script>`;
+    return `<script>(win=>{${
+        localStore + getScript + getCSS + darkmodeJs + asideStatus + detectApple
+    }})(window)</script>`;
 });
